@@ -1,0 +1,104 @@
+/* section-two部分 */
+/* .two-top部分 */
+.two-top {
+    font-size: 0;
+}
+
+.two-top .news-content {
+    width: 370px;
+    display: inline-block;
+    margin-bottom: 30px;
+    vertical-align: top;
+}
+
+.two-top .news-content .img-content a {
+    display: block;
+    height: inherit;
+    overflow: hidden;
+}
+
+.two-top .news-content .img-content img {
+    transition: transform .3s;
+}
+
+.two-top .news-content .img-content img:hover {
+    transform: scale(1.1);
+}
+
+.two-top .news-content>span {
+    font-weight: lighter;
+}
+
+.two-top .news-content>span, .two-top .news-content .border-a {
+    display: inline-block;
+    font-size: 12px;
+    color: #9fa4af;
+    line-height: 24px;
+    font-weight: 500;
+}
+
+.two-top .news-content .news-title {
+    padding-top: 4px;
+}
+
+.two-top .news-content .news-title a {
+    font-size: 18px;
+    color: #292929;
+    line-height: 26px;
+    font-weight: 500;
+    transition: color .3s ease-out 0s;
+}
+.two-top .news-content .news-title a:hover{
+    color: #ff5235;
+}
+
+.two-top .news-content .border-a::after {
+    position: absolute;
+    content: "";
+    top: 86%;
+    left: 0;
+    width: 100%;
+    height: 3px;
+    background: #9fa4af;
+    transform: scaleX(0);
+    transform-origin: 50% 50%;
+    transition: transform .2s;
+}
+
+.two-top .news-content .border-a:hover:after {
+    transform: scale(1, 0.5);
+}
+
+.two-top .news-content .border-a {
+    margin-top: 10px;
+    letter-spacing: 1.6px;
+    position: relative;
+}
+/* .two-bottom部分 */
+.two-bottom{
+    margin-top: 25px;
+}
+.two-bottom ul{
+    display: flex;
+    justify-content: center;
+    user-select: none;
+}
+.two-bottom ul li{
+    width: 30px;
+    line-height: 30px;
+    border: 1px solid rgb(243, 244, 246);
+    margin-right: 10px;
+    font-size: 12px;
+    color: #a39f9f;
+    text-align: center;
+    transition: background-color .5s;
+    cursor: pointer;
+}
+.two-bottom ul li:hover{
+    background-color: #e9ecef;
+}
+.two-bottom ul li.active{
+    color: #fff;
+    background-color: rgb(255, 82, 53);
+    border-color: rgb(243, 244, 246);
+}

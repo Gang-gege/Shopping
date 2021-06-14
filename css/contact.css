@@ -1,0 +1,110 @@
+
+
+/* two-title部分 */
+.two-title {
+    text-align: center;
+}
+
+.two-title h3 {
+    font-size: 25px;
+    line-height: 72px;
+    font-weight: 500;
+    color: #292929;
+    margin-bottom: 8px;
+}
+
+.two-title p {
+    font-size: 15px;
+    line-height: 25px;
+    font-weight: 300;
+    color: #7c7a7a;
+    margin-bottom: 15px;
+}
+
+/* section-two部分 */
+#section-two form .input-info {
+    display: flex;
+    justify-content: left;
+    font-size: 0;
+}
+
+#section-two form .input-info .input-list {
+    width: 33.3333%;
+}
+
+#section-two form .input-info input, #section-two form .input-text textarea {
+    width: 100%;
+    border-bottom: 1px solid rgb(235, 235, 235);
+    padding-bottom: 10px;
+    padding-top: 10px;
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+#section-two form .input-info input::-webkit-input-placeholder, #section-two form .input-text textarea::-webkit-input-placeholder {
+    font-size: 14px;
+    color: #cfc7c7;
+    letter-spacing: 1.5px;
+}
+
+#section-two form .input-info input:focus, #section-two form .input-text textarea:focus {
+    border-color: rgb(255, 82, 53);
+    border-bottom: 1px solid rgb(255, 82, 53);
+}
+
+#section-two form .input-info input:focus::-webkit-input-placeholder, #section-two form .input-text textarea:focus::-webkit-input-placeholder {
+    color: rgb(255, 82, 53);
+}
+
+#section-two form .input-text {
+    margin-top: 30px;
+}
+
+#section-two form .input-text textarea {
+    height: 160px;
+}
+#section-two form .form-btn{
+    text-align: center;
+    margin-top: 75px;
+}
+#section-two form .form-btn button{
+    background-color: rgb(255, 82, 53);
+    height: 60px;
+    line-height: 60px;
+    width: 180px;
+    text-align: center;
+    color: #f7f7f7;
+    font-size: 14px;
+    letter-spacing: 2px;
+    border-radius: 2px;
+}
+/* contact-us部分 */
+
+.contact-us {
+    padding-bottom: 100px;
+}
+
+.contact-us .container {
+    display: flex;
+    justify-content: center;
+}
+
+.contact-list {
+    width: 25%;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.contact-list .contact-icon {
+    font-size: 40px;
+    color: rgb(41, 41, 41);
+    line-height: 60px;
+}
+
+.contact-list ul li {
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: .6px;
+    font-weight: lighter;
+    color: #7c7a7a;
+}

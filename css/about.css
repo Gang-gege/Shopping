@@ -1,0 +1,78 @@
+/* section-two部分 */
+
+#section-two .container {
+    display: flex;
+    justify-content: left;
+}
+
+.who-text, .who-img {
+    /* padding-right: 140px; */
+    width: 50%;
+}
+
+.who-text h5 {
+    font-size: 18px;
+    line-height: 28px;
+    color: #292929;
+    letter-spacing: .6px;
+    margin-bottom: 8px;
+}
+
+.who-text p {
+    font-size: 18px;
+    line-height: 30px;
+    color: #7c7a7a;
+    font-weight: 300;
+    letter-spacing: 1px;
+    padding-top: 10px;
+    margin-bottom: 15px;
+    padding-right: 35px;
+}
+
+.who-img {
+    text-align: center;
+}
+
+/* servers部分 */
+
+.servers .container {
+    display: flex;
+    justify-content: left;
+}
+
+.server-list {
+    width: 33.3333%;
+    display: flex;
+    justify-content: left;
+}
+
+.server-list .server-img {
+    margin-right: 20px;
+}
+
+.server-list .server-text h5 {
+    font-size: 22px;
+    line-height: 37px;
+    color: #292929;
+    letter-spacing: .6px;
+    margin-bottom: 8px;
+}
+
+.server-list .server-text span {
+    font-size: 16px;
+    line-height: 26px;
+    color: #7c7a7a;
+    font-weight: lighter;
+}
+
+/* about-bg部分 */
+
+.about-bg .bg-img {
+    overflow: hidden;
+}
+.about-bg .bg-img img{
+    transition: transform .6s ease-out;
+}
+.about-bg .bg-img:hover img {
+    transform: scale(1.1);
+}

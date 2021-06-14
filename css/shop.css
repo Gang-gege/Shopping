@@ -1,0 +1,306 @@
+/* section-two部分 */
+
+#section-two .dis-flex {
+    display: flex;
+    justify-content: left;
+    padding-bottom: 75px;
+    border-bottom: 1px solid #cacaca;
+}
+
+/* section-two左部分 */
+
+.comm-list ul li {
+    margin-bottom: 15px;
+}
+
+/* section-two右部分 */
+
+.product {
+    display: flex;
+    justify-content: left;
+}
+
+.product .product-left .product-img {
+    height: 550px;
+    text-align: center;
+    background-image: -webkit-linear-gradient( 90deg, rgb(252, 253, 255) 0%, rgb(245, 246, 250) 100%);
+}
+
+.product .product-right {
+    margin-left: 50px;
+}
+
+.product .product-right h2 {
+    text-align: left;
+    font-size: 30px;
+    line-height: 40px;
+    font-weight: 600;
+    letter-spacing: 0;
+}
+
+.product .product-right .star {
+    display: inline-block;
+    margin-right: 20px;
+    line-height: 24px;
+}
+
+.product .product-right .star li {
+    float: left;
+    color: rgb(246, 102, 63);
+    margin-right: 5px;
+}
+
+.product .product-right .star .star-none {
+    color: #A1A1A1;
+}
+
+.product .product-right .customer {
+    display: inline-block;
+    vertical-align: 6px;
+    color: #a39f9f;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 24px;
+}
+
+.product .product-right .price {
+    text-align: left;
+    padding: 15px 0 10px;
+}
+
+.product .product-right .price span {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 28px;
+    color: #4a4a4a;
+}
+
+.product .product-right .pro-text {
+    font-size: 14px;
+    line-height: 24px;
+    color: #a39f9f;
+    font-weight: 300;
+    padding-right: 130px;
+    margin-bottom: 15px;
+}
+
+.product .product-right .pro-color, .product .product-right .size {
+    display: flex;
+    justify-content: left;
+    margin-bottom: 8px;
+    padding-top: 10px;
+}
+
+.product .product-right .pro-color>span, .product .product-right .size>span {
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 25px;
+    letter-spacing: 1.6px;
+    color: #4a4a4a;
+}
+
+.product .product-right .pro-color .all-color {
+    padding-left: 20px;
+}
+
+.product .product-right .pro-color .all-color span {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: rgb(162, 103, 73);
+    display: inline-block;
+    margin-left: 10px;
+}
+
+.product .product-right .pro-color .all-color span:nth-child(2) {
+    background-color: rgb(168, 55, 22);
+}
+
+.product .product-right .size ul {
+    display: flex;
+    justify-content: left;
+    margin-left: 50px;
+}
+
+.product .product-right .size ul li {
+    display: inline-block;
+    font-size: 11px;
+    line-height: 28px;
+    color: #7d7d7d;
+    border: 1px solid rgb(235, 235, 235);
+    width: 38px;
+    height: 28px;
+    text-align: center;
+    cursor: pointer;
+    transition: .3s;
+    margin-left: 5px;
+}
+
+.product .product-right .size ul li.active {
+    background-color: rgb(255, 82, 53);
+    border-color: rgb(235, 235, 235);
+    color: #ffffff;
+}
+
+.product .product-right .add {
+    display: flex;
+    justify-content: left;
+    margin-top: 25px;
+}
+
+.product .product-right .add .plus {
+    margin-right: 20px;
+    border: 1px solid rgb(215, 215, 215);
+    width: 118px;
+    height: 43px;
+    line-height: 38px;
+    text-align: center;
+    user-select: none;
+}
+
+.product .product-right .add .plus span {
+    cursor: pointer;
+    width: 30px;
+    padding: 2px 0;
+}
+
+.product .product-right .add .plus input {
+    width: 45px;
+    box-sizing: content-box;
+    text-align: center;
+    padding: 1px 2px;
+    line-height: 41px;
+    font-size: 16px;
+}
+
+.product .product-right .add .add-btn a {
+    display: inline-block;
+    height: 43px;
+    width: 180px;
+    line-height: 43px;
+    text-align: center;
+    background-color: rgb(255, 82, 53);
+    border-radius: 2px;
+    color: #f7f7f7;
+    font-size: 14px;
+    letter-spacing: 2px;
+    font-weight: lighter;
+}
+
+.product .product-right .add .add-icon {
+    margin-left: 20px;
+    line-height: 45px;
+}
+
+.product .product-right .add .add-icon span {
+    margin-left: 10px;
+}
+
+.product .product-right .add .add-icon span a {
+    color: rgb(74, 74, 74);
+}
+
+.product .product-right .pro-link {
+    padding-top: 80px;
+    display: flex;
+    justify-content: left;
+}
+
+.product .product-right .pro-link li {
+    margin-right: 15px;
+}
+
+.product .product-right .pro-link li a {
+    color: rgb(159, 164, 175);
+    font-size: 20px;
+    transition: color 0.3s ease-out 0s;
+}
+
+.product .product-right .pro-link li a:hover {
+    color: rgb(255, 82, 53);
+}
+
+/* section-three部分 */
+
+#section-three {
+    padding-top: 65px;
+}
+
+/* section-three标题 */
+
+.three-title {
+    text-align: center;
+}
+
+.three-title a {
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 24px;
+    color: #9fa4af;
+    margin-right: 75px;
+}
+
+.three-title a.active {
+    color: #4a4a4a;
+}
+
+/* section-three正文 */
+
+.three-content {
+    display: flex;
+    justify-content: space-around;
+    margin-left: 100px;
+    margin-top: 55px;
+}
+
+.three-content .three-left {
+    position: relative;
+}
+
+.three-content .three-left::before {
+    content: "";
+    position: absolute;
+    width: 1px;
+    height: 242px;
+    background-color: rgb(235, 235, 235);
+    right: 65px;
+    top: 15px;
+}
+
+.three-content .three-left p {
+    font-size: 15px;
+    line-height: 25px;
+    font-weight: 300;
+    color: #898989;
+    padding-right: 100px;
+    margin-bottom: 25px;
+    text-align: left;
+}
+
+.three-content .three-left p:nth-child(2) {
+    margin-bottom: 15px;
+}
+
+.three-content .three-right h6 {
+    font-size: 14px;
+    line-height: 27px;
+    letter-spacing: 1px;
+    font-weight: 700;
+    color: #4a4a4a;
+    margin-bottom: 8px;
+}
+
+.three-content .three-right ul li {
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: 300;
+    color: #898989;
+    list-style: disc;
+    letter-spacing: -.3px;
+    margin-left: 15px;
+    width: 330px;
+}
+
+.three-content .three-right ul li::marker {
+    color: rgb(74, 74, 74);
+}
